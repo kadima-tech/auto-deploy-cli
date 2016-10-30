@@ -1,0 +1,32 @@
+{
+  "name": "auto-deploy-cli",
+  "version": "0.0.1",
+  "description": "CLI for the auto-deploy-server",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadima-tech/auto-deploy-cli.git"
+  },
+  "author": "Jacobus Meulen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadima-tech/auto-deploy-cli/issues"
+  },
+  "homepage": "https://github.com/kadima-tech/auto-deploy-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-ssh": "^3.0.1",
+    "request": "^2.76.0",
+    "request-promise-native": "^1.0.3",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "tape": "^4.6.2"
+  }
+}
