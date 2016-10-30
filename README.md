@@ -31,12 +31,12 @@ You'll need to create a deploy.json file in your project's repository that conta
 
 ```json
 {
-	environments: [{
-		name: 'staging',
-		host: 'XXX.XXX.XXX.XXX'
+	"environments": [{
+		"name": "staging",
+		"host": "XXX.XXX.XXX.XXX"
 	}],
 
-	autoDeployServer: 'XXX.XXX.XXX.XXX'
+	"autoDeployServer": "XXX.XXX.XXX.XXX"
 }
 ```
 
