@@ -1,7 +1,7 @@
-# auto-deploy-server
-[![Code Climate](https://codeclimate.com/github/kadima-tech/auto-deploy-server/badges/gpa.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-server)
-[![Test Coverage](https://codeclimate.com/github/kadima-tech/auto-deploy-server/badges/coverage.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-server/coverage)
-[![Issue Count](https://codeclimate.com/github/kadima-tech/auto-deploy-server/badges/issue_count.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-server)
+# auto-deploy-cli
+[![Code Climate](https://codeclimate.com/github/kadima-tech/auto-deploy-cli/badges/gpa.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-cli)
+[![Test Coverage](https://codeclimate.com/github/kadima-tech/auto-deploy-cli/badges/coverage.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-cli/coverage)
+[![Issue Count](https://codeclimate.com/github/kadima-tech/auto-deploy-cli/badges/issue_count.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-cli)
 
 auto-deploy-cli is a project that was started as a means to give everyone the opportunity to set up their own Continuous Deployment server, without having to pay high fees per project you deploy. 
 
@@ -84,7 +84,7 @@ yarn test
 
 ## Deployment
 
-This project is split up into two components - auto-deploy-server and auto-deploy-cli. For this project you will need a server to deploy the infrastructure on and a machine to run the cli on. The deployment of this project can be done without docker, though the included docker setup means that you will only need to install docker-tools on the target machine to host this project.
+This project is split up into two components - auto-deploy-cli and auto-deploy-cli. For this project you will need a server to deploy the infrastructure on and a machine to run the cli on. The deployment of this project can be done without docker, though the included docker setup means that you will only need to install docker-tools on the target machine to host this project.
 
 ## Built With
 
@@ -104,7 +104,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Jacobus Meulen** - *Initial work* - [Kadima-Tech](https://github.com/kadima-tech)
 
-See also the list of [contributors](https://github.com/kadima-tech/auto-deploy-server/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/kadima-tech/auto-deploy-cli/contributors) who participated in this project.
 
 ## License
 
